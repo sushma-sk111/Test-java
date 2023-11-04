@@ -64,11 +64,7 @@
                        
                     }
    
-10.  java features:  Abstraction 
-                     Polymarphism
-                     Encapsulation
-                     Inheritence
-
+10.  java features:  platform independent,high level programming language,secure,used to develop applications
 
 11. Array : Array single variable have multiple values is known as array
 
@@ -127,16 +123,14 @@ example :  class Student{
 16.
         class array{
 
-
+                     public static void main(String[] args)
+                    {
                       int[] numbers={12,3,2,45,6,7,6};
-                       
-            
-                          
-                       for(int i=0;i<=numbers.length;i++)
                        {
-                          System.out.println(numbers[i]);
+                          System.out.println(numbers.length);
                         }
                    } 
+                  }
 17.
  
 
